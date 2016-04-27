@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
-class HomeController extends \Igniweb\Foundation\Controllers\Backend\BaseController {
+use Igniweb\Foundation\Controllers\Backend\BaseController;
+
+class HomeController extends BaseController
+{
 	/**
 	 * Display home page.
 	 *
