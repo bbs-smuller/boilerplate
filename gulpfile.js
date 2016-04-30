@@ -3,7 +3,7 @@ var elixir = require('laravel-elixir');
 require('laravel-elixir-vueify');
 
 elixir(function (mix) {
-    mix.sass('admin.scss');
+    mix.sass('backend.scss');
 
-    mix.browserify('admin.js');
+    mix.browserify('backend.js');
 });
