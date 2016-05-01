@@ -1,0 +1,25 @@
+.LoginForm {
+
+	&:before {
+		display: block;
+		padding: 0 1rem;
+		margin-bottom: 2rem;
+		height: 5px;
+		background-color: $color-primary-light;
+	}
+
+	.help-text {
+		margin-bottom: 1rem;
+		font-size: 0.7rem;
+		font-style: normal;
+	}
+
+	#remember_me {
+		margin-bottom: 2rem;
+	}
+
+	.label-checkbox {
+		margin-top: 1rem;
+		font-size: 0.8rem;
+	}
+}
