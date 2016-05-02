@@ -25,8 +25,13 @@
 
 		data() {
 			return {
-				//
+				email: '',
+				password: ''
 			};
+		},
+
+		ready() {
+			setInterval(this.switchColors, 5000);
 		},
 
 		methods: {
